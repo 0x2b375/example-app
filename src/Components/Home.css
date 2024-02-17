@@ -1,0 +1,17 @@
+.home-title {
+  margin-block: 0 0.5em;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+p {
+  padding-block: 1.5em;
+  margin-left: 10px;
+}
+
+
+.grid {
+  inline-size: 90%;
+  margin-inline: auto;
+  max-inline-size: 48em;
+}
