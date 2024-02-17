@@ -1,28 +1,32 @@
 import React from "react";
 import "./Header.css";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 
 function Header() {
   return (
     <header>
       <div className="sticky">
-        <h1 className="title">React Website</h1>
-        <nav>
+        <nav className="nav">
+          <h1 className="title">React Website</h1>
           <ul>
             <li>
-              <Link to="/" className="button" activeClassName="active">
+              <NavLink to="/" exact className="button" activeClassName="active">
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/about" className="button" activeClassName="active">
+              <NavLink to="/about" className="button" activeClassName="active">
                 About
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact" className="button" activeClassName="active">
+              <NavLink
+                to="/contact"
+                className="button"
+                activeClassName="active"
+              >
                 Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </nav>
