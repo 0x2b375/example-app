@@ -33,8 +33,7 @@ header {
   margin: 0;
   list-style: none;
   display: flex;
-  gap: 1rem
-  ;
+  gap: 1rem;
 }
 
 li {
