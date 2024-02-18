@@ -71,6 +71,7 @@ const Home = () => {
         distinctio officia, molestias in repellendus eius quis tempora animi.
         Reprehenderit, veniam.
       </p>
+     
     </div>
   );
 };

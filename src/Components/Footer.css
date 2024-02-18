@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding: 1rem 1rem 4rem;
+  border-top: 1px solid #ccc;
+  background-color: #333;
+  position: relative;
+}
+
+.gotop {
+  display: block;
+  width: 2.5rem;
+  aspect-ratio: 1;
+  background: url(up-chevron.svg) no-repeat center / 1rem #0cf;
+  border-radius: 50%;
+  border: 2px solid #333;
+  cursor: pointer;
+  position: absolute;
+  inset: 0 3rem auto auto;
+  translate: 0 -50%;
+}

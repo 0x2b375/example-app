@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .home-title {
   margin-block: 0 0.5em;
   margin-left: 10px;
@@ -15,3 +19,4 @@ p {
   margin-inline: auto;
   max-inline-size: 48em;
 }
+
